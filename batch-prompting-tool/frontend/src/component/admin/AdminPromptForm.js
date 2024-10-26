@@ -22,8 +22,8 @@ const AdminPromptForm = () => {
     <div className="container mt-5" style={{ color: 'blue', padding: '20px', border: '2px solid black' }}>
       <h2 className="text-center mb-10 ml-10">Submit Your URLs and Keywords</h2>
       <div className="row">
-        <div className="col-md-4"></div>
-        <div className="col-md-4">
+        <div className="col-md-2"></div>
+        <div className="col-md-8">
           <form onSubmit={handleSubmit} className="card p-4 shadow">
             <div className="mb-3 row">
               <div className="col-md-6">
